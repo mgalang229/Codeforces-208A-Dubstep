@@ -7,7 +7,6 @@ int main() {
 	cin.tie(0);
 	string s;
 	cin >> s;
-	string tmp = "WUB";
 	for (int i = 0; i < (int) s.size(); i++) {
 		if (s[i] == 'W' && s[i + 1] == 'U' && s[i + 2] == 'B') {
 			i += 2;
